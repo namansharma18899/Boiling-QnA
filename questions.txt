@@ -1,7 +1,35 @@
 questions -> 
 
+docker work -> (=32)
+How do Lambdas Worked
+How to calulcate 99percentile
+How does kafka actually work in terms of Architecture 
+How does a load balancer work....or Algorithims for load balancing
+All the design patterns I have learnt
+python multiprocesssing
+ACTUAL DIFFERENCE BETWEEN Thread and Process
+How does our proxy work
+diff process thread
+multiprocessing & ....
+concurrency parallelizatiohn
+DATABASE SCHEMA, ....
+KAFKA
+FLASK, DJANGO
+    
 
-Q: how does docker work -> 
+
+
+
+
+
+
+
+
+
+
+
+
+Q: How does docker work -> 
 Docker is an containarizing app which lets us manage containers. It is different from Virtual Machines (type 1). Docker works on a client server architecture and the main client or the master node here is a Docker Daemon ( dockerd ) which is nothing but the server actually processes the requests sent over by the docker client.
 
 Docker client is what we use wehen we access docke from the command line ( docker run  etc.). A docker client communicates with the docker damemon. Docker daemon can talk to bunch of docker client and can be ona seperate machine allby itself.
