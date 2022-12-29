@@ -1,0 +1,10 @@
+questions -> 
+
+
+Q: how does docker work -> 
+Docker is an containarizing app which lets us manage containers. It is different from Virtual Machines (type 1). Docker works on a client server architecture and the main client or the master node here is a Docker Daemon ( dockerd ) which is nothing but the server actually processes the requests sent over by the docker client.
+
+Docker client is what we use wehen we access docke from the command line ( docker run  etc.). A docker client communicates with the docker damemon. Docker daemon can talk to bunch of docker client and can be ona seperate machine allby itself.
+
+
+Docker client deals with various docker objects (i.e docker images,containers). 
